@@ -57,17 +57,21 @@ public class MainActivity extends AppCompatActivity {
         String email = emailEditText.getText().toString();
         String password = passwordEditText.getText().toString();
 
-        //firebase auth
-        mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
-            @Override
-            public void onComplete(@NonNull Task<AuthResult> task) {
-                if(task.isSuccessful()){
-                    shop();
-                }else{
-                    Toast.makeText(MainActivity.this,"Nem sikerült a felhasználót bejelentkeztetni!", Toast.LENGTH_LONG).show();
+        if(email!=null && password!=null){
+            //firebase auth
+            mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                @Override
+                public void onComplete(@NonNull Task<AuthResult> task) {
+                    if(task.isSuccessful()){
+                        shop();
+                    }else{
+                        Toast.makeText(MainActivity.this,"Nem sikerült a felhasználót bejelentkeztetni!", Toast.LENGTH_LONG).show();
+                    }
                 }
-            }
-        });
+            });
+        }else{
+            Toast.makeText(MainActivity.this,"Email és jelszó nem lehet üres", Toast.LENGTH_LONG).show();
+        }
     }
 
     public void register(View view) {

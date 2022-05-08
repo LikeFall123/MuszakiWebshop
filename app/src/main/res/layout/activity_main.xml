@@ -13,7 +13,7 @@
         android:layout_height="@dimen/edit_text_heigth"
         android:ems="10"
         android:hint="@string/email"
-        android:inputType="text"
+        android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
