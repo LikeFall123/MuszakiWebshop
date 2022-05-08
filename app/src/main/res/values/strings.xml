@@ -1,0 +1,107 @@
+<resources>
+    <string name="app_name">MuszakiWebshop</string>
+    <string name="name">Név</string>
+    <string name="password">Jelszó</string>
+    <string name="login">Bejelentkezés</string>
+    <string name="registration">Regisztráció</string>
+    <string name="user_name">Felhasználónév</string>
+    <string name="email_address">E-mail cím</string>
+    <string name="password_again">Jelszó megerősítése</string>
+    <string name="cancel">Mégse</string>
+    <string name="login_google">Bejelentkezés google fiókkal</string>
+    <string name="login_as_guest">Bejelentkezés vendégként</string>
+    <string name="email">Email</string>
+    <string name="customer">Vevő</string>
+    <string name="seller">Eladó</string>
+    <string name="agree">Felhasználási feltételek elfogadása</string>
+    <string name="google_login">Bejelentkezés Google-el</string>
+    <string name="log_out">Kijelentkezés</string>
+    <string name="setting">Beállítások</string>
+    <string name="about">Rólunk</string>
+    <string name="return_text">Vissza</string>
+    <string name="made_by">Készítette: Zabos Péter</string>
+    <string name="app_version">Applikáció verziója: 1.0</string>
+    <string name="cart_title">Kosarad</string>
+    <string name="to_cart">Kosárba</string>
+    <string name="delete_item">Törlés</string>
+    <string name="delete_from_cart">Kirak</string>
+    <string name="buy_item">Megvesz</string>
+    <string-array name="country_values">
+        <item>Magyarország</item>
+        <item>Egyesült Királyság</item>
+        <item>Amerika Egyesült Államok</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string-array name="phone_labels">
+        <item>Otthon</item>
+        <item>Munkahely</item>
+        <item>Mobil</item>
+        <item>Egyéb</item>
+    </string-array>
+
+    <string-array name="shopping_item_names">
+        <item>Laptop</item>
+        <item>Stepper motor</item>
+        <item>Arduino</item>
+        <item>Kondenzátor</item>
+        <item>Ellenállás</item>
+        <item>Tekercs</item>
+        <item>Relé</item>
+        <item>Biztosíték</item>
+        <item>Integrált áramkör</item>
+        <item>Oszcilloszkóp</item>
+    </string-array>
+
+    <string-array name="shopping_item_desc">
+        <item>Dell Latitude 3320 13 Inch Laptop</item>
+        <item>ACT 17HS5415P1X6 Stepper motor</item>
+        <item>Ardunio UNO WIFI Rev2</item>
+        <item>ELPUMPS JPV 1300, 16 μF, 450 V</item>
+        <item>100 kOhm, 0.25 W ellenállás</item>
+        <item>Ferritmagos induktivitás 250 uH 16 A - RADIOHM - 51V47A600</item>
+        <item>Relé, munkaáram TOPRAN, X érintkező</item>
+        <item>5x20 F 400mA biztosíték</item>
+        <item>CD4017 DIP CD4011 IC Chip, For Electronics, Maulee Electronics</item>
+        <item>OWON SDS1102 2-ch Digital Oscilloscope (100 MHz)</item>
+    </string-array>
+
+    <array name="shopping_item_rates">
+        <item>3.5</item>
+        <item>5</item>
+        <item>4</item>
+        <item>1.5</item>
+        <item>5</item>
+        <item>3</item>
+        <item>4.5</item>
+        <item>4</item>
+        <item>5</item>
+        <item>2.5</item>
+    </array>
+
+    <array name="shopping_item_images">
+        <item>@drawable/laptop</item>
+        <item>@drawable/stepper_motor</item>
+        <item>@drawable/arduino</item>
+        <item>@drawable/capacitance</item>
+        <item>@drawable/resistance</item>
+        <item>@drawable/inductivity</item>
+        <item>@drawable/relay</item>
+        <item>@drawable/fuse</item>
+        <item>@drawable/ic</item>
+        <item>@drawable/oscilloscope</item>
+    </array>
+
+    <array name="shopping_item_price">
+        <item>100000 HUF</item>
+        <item>5500 HUF</item>
+        <item>3200 HUF</item>
+        <item>100 HUF</item>
+        <item>80 HUF</item>
+        <item>70 HUF</item>
+        <item>290 HUF</item>
+        <item>540 HUF</item>
+        <item>1800 HUF</item>
+        <item>300000 HUF</item>
+    </array>
+</resources>

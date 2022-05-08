@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "437364783287",
+    "project_id": "muszakiwebshop-3ef05",
+    "storage_bucket": "muszakiwebshop-3ef05.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437364783287:android:7a60ffa3f1812bca68f532",
+        "android_client_info": {
+          "package_name": "com.example.muszakiwebshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437364783287-00caaiqamq2uh77eq5518bnl7k2qd0i7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.muszakiwebshop",
+            "certificate_hash": "89dfdfe7ba782228080c4980d3c050076d3bc741"
+          }
+        },
+        {
+          "client_id": "437364783287-a17oi9505mf4k64jgro9hq96asq3sri4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6QyovraAArsVRdMpCK5KWGzUYOLs0-ag"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437364783287-a17oi9505mf4k64jgro9hq96asq3sri4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

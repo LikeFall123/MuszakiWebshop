@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/title_about"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/about"
+            android:textSize="40dp"
+            android:layout_marginTop="@dimen/hor_top_margin_big"/>
+
+        <TextView
+            android:id="@+id/made_by"
+            android:layout_width="@dimen/def_width"
+            android:layout_height="@dimen/edit_text_heigth"
+            android:gravity="center"
+            android:text="@string/made_by"
+            android:textSize="30dp"
+            android:layout_marginTop="@dimen/hor_top_margin_big"/>
+
+        <TextView
+            android:id="@+id/app_version"
+            android:layout_width="@dimen/def_width"
+            android:layout_height="@dimen/edit_text_heigth"
+            android:gravity="center"
+            android:text="@string/app_version"
+            android:textSize="20dp"
+            android:layout_marginTop="@dimen/hor_top_margin_small"/>
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:srcCompat="@drawable/app_icon"
+            android:layout_marginTop="@dimen/hor_top_margin_small"/>
+
+        <Button
+            android:id="@+id/return_button"
+            android:layout_width="@dimen/def_width"
+            android:layout_height="@dimen/edit_text_heigth"
+            android:width="@dimen/def_width"
+            android:text="@string/return_text"
+            android:onClick="return_to_main"
+            android:layout_marginTop="@dimen/hor_top_margin_small"/>
+    </LinearLayout>
+</ScrollView>

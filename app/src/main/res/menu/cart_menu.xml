@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/view_selector"
+        android:title="view"
+        android:icon="@drawable/ic_view_grid"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/empty_cart"
+        android:title="empty_cart"
+        android:icon="@drawable/ic_empty_cart"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/return_to_menu"
+        android:title="return_to_menu"
+        android:icon="@drawable/ic_return_to_menu"
+        app:showAsAction="always"
+        android:onClick="return_to_main"
+        />
+</menu>
