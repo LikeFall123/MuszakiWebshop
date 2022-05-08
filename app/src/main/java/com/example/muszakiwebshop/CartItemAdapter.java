@@ -27,8 +27,6 @@ public class CartItemAdapter extends RecyclerView.Adapter<CartItemAdapter.ViewHo
     private Context mContext;
     private int lastPosition = -1;
 
-    //TODO megvaltoztatni a CardView/RecyclerView kinezetet !!!
-
     public CartItemAdapter(Context mContext, ArrayList<WebShopItem> itemsData) {
         this.mCartItemData = itemsData;
         this.mContext = mContext;

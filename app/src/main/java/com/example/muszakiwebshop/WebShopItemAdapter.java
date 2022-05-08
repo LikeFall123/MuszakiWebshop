@@ -29,8 +29,6 @@ public class WebShopItemAdapter extends RecyclerView.Adapter<WebShopItemAdapter.
     private Context mContext;
     private int lastPosition = -1;
 
-    //TODO megvaltoztatni a CardView/RecyclerView kinezetet !!!
-
     public WebShopItemAdapter(Context mContext, ArrayList<WebShopItem> itemsData) {
         this.mWebShopItemData = itemsData;
         this.mWebShopItemDataAll = itemsData;

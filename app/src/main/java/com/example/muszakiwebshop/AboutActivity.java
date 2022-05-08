@@ -24,7 +24,7 @@ public class AboutActivity extends AppCompatActivity {
         user = FirebaseAuth.getInstance().getCurrentUser();
 
         if(user!=null){
-            //todo log
+
         }else{
             finish();
         }

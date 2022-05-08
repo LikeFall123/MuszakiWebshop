@@ -54,7 +54,6 @@ public class CartActivity extends AppCompatActivity {
 
     private int gridNumber = 1;
 
-    //todo beallitani user-enkent
     private CollectionReference mItems;
 
     private FirebaseFirestore mFirestore;
@@ -75,7 +74,7 @@ public class CartActivity extends AppCompatActivity {
         preferences = getSharedPreferences(PREF_KEY, MODE_PRIVATE);
 
         if(user!=null){
-            //todo log
+
         }else{
             finish();
         }

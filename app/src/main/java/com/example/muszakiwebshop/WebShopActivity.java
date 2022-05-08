@@ -85,7 +85,6 @@ public class WebShopActivity extends AppCompatActivity {
         preferences = getSharedPreferences(PREF_KEY, MODE_PRIVATE);
 
         if(user!=null){
-            //todo log
         }else{
             finish();
         }
@@ -218,7 +217,6 @@ public class WebShopActivity extends AppCompatActivity {
                 finish();
                 return true;
             case R.id.setting_button:
-                //TODO
                 return true;
             case R.id.cart:
                 cart();

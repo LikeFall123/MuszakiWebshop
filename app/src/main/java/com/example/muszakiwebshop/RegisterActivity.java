@@ -55,15 +55,6 @@ public class RegisterActivity extends AppCompatActivity implements AdapterView.O
         accountTypeGroup.check(R.id.buyer);
         agreeCheckBox = findViewById(R.id.agreeCheckBox);
 
-        //TODO lifcyle preferences
-//        preferences = getSharedPreferences(PREF_KEY, MODE_PRIVATE);
-//        String userName = preferences.getString("userName", "");
-//        String password = preferences.getString("password", "");
-//
-//        userNameEditText.setText(userName);
-//        passwordEditText.setText(password);
-//        passwordConfirmEditText.setText(password);
-
         spinner.setOnItemSelectedListener(this);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
                 R.array.country_values, android.R.layout.simple_spinner_item);

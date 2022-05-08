@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    //TODO sign in with Google
+
     public void googleLogin(View view) {
         Intent signInIntent = mGoogleSignInClient.getSignInIntent();
         startActivityForResult(signInIntent, RC_SIGN_IN);
