@@ -1,8 +1,14 @@
+# Homework project for Mobile application development course (SZTE TTIK)
+# Tech-shop mobile application
+
 Zabos Péter
 Műszaki cikk webshop:
 -egyszerű webshop
 -kosár kattintható: tartalma a user által kosárba rakott termékek
 -minden induláskor nullázza a kosár tartalmát, azaz csak 1 kosár létezik,
  nincsen userenként külön (egyszerűség kedvéért)
--HA GOND VAN: pls írj
--pontozás excellben a megvalósított funkciók fel vannak sorolva
+
+ Tech webshop description:
+ -easy to use online shop
+ -you can check your basket
+ -at startup the basket will be empty (for debug reasons)
